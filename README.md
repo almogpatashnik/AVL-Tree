@@ -15,28 +15,22 @@ and import as follow:
 ```python
 from AVLList import AVLTreeList
 ```
+
 ### AVLTree Class
-| Function                    | Description                                                                                                                                                                                                                                                                                                                                      |
-|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| empty()                     | Returns True if the tree is empty.                                                                                                                                                                                                                                                                                                                |
-| retrieve(i)               | Returns the value of the item in place of i if it exists, otherwise it returns
-None.                                                                                                                                                                                                         |
-| insert(i, s)              | Inserts an item with value s into the list at the i-th place, if there are at least i items
-in the list. Returns the total number of rebalancing operations required in the step of repairing the tree in order to preserve the balance feature.
-                             |
-| delete(i)               | Deletes the item at the i-th place in the list, if it exists. Returns the total number
-of balancing actions that were required in during the tree repair phase in order to preserve the feature
-the balance. If there are not enough items in the list the function returns -1.                                                                                                                                                            |
-| first()                      | Returns the value of the first value in the list. If the list is empty returns None.                                                                                                                                                                                                                                                                                                       |
-| last()                      | Returns the value of the last value in the list. If the list is empty returns None.                                                                                                                                                                                                                                                                                                       |
-| listToArray()               | Returns an array containing the elements of the list in the order of the indexes, or
-An empty array if the list is empty.                                                                                                                                                                                                                                               |
-| length()                      | Returns the number of items in the list.                                                                                                                                                                                                                                                                                                       |
+| Function       | Description                                                                                                                                                               |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| empty()        | Returns True if the tree is empty.                                                                                                                                      |
+| retrieve(i)    | Returns the value of the item in place of i if it exists, otherwise it returns None.                                                                                     |
+| insert(i, s)   | Inserts an item with value s into the list at the i-th place, if there are at least i items in the list. Returns the total number of rebalancing operations required in the step of repairing the tree to preserve the balance feature. |
+| delete(i)      | Deletes the item at the i-th place in the list, if it exists. Returns the total number of balancing actions required during the tree repair phase to preserve the balance feature. If there are not enough items in the list, the function returns -1. |
+| first()        | Returns the value of the first value in the list. If the list is empty, returns None.                                                                                   |
+| last()         | Returns the value of the last value in the list. If the list is empty, returns None.                                                                                    |
+| listToArray()  | Returns an array containing the elements of the list in the order of the indexes, or an empty array if the list is empty.                                              |
+| length()       | Returns the number of items in the list.                                                                                                                                  |
+| permutation()  | Returns the items of the list in a random order.                                                                                                                          |
+| sort()         | Sorts the items in the list.                                                                                                                                             |
+| search(val)    | Searches for an item in the list with the value of val and returns its index. If it doesn't exist in the list, returns -1.                                               |
 
-| permutation()                      | Returns the items of the list in a random order.                                                                                                                                                                                                                                                                                          |
-| sort()                      | Sorts the items in the list.                                                                                                                                                                                                                                               |
-
-| search(val)               | Searchs an item in the list with the value of val, and returns its index. If it doesn't exist in the list returns -1.                                                                                                                                                                                                           |
 
 
 ### AVLNode SubClass
