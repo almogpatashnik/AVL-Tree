@@ -1,13 +1,9 @@
 # AVL Tree   
-AVL Tree class implementation in Python. An AVL tree self-balancing binary search tree.   
-In this data structure, the heights of the two child subtrees of any node differ by at most one and if at any time 
-they differ by more than one, *rebalancing* is done to restore this property.   
-This special property assured us that operations such as searching, insertion, deletion, joining and splitting 
-are operating in  O(log n) time in both the average and worst case.    
-In this implementation "imaginary nodes" were added, so that for every node there will be two 
-sons (helping in rebalancing the tree).    
-For more information about AVL trees and their rebalancing methods can be found in ["Notes on AVL Trees"](Notes_on_AVL_Trees.pdf)
-and many Data Structures and Algorithms books.
+This is a Python implementation of an AVL Tree, which is a self-balancing binary search tree. In an AVL Tree, the heights of the two child subtrees of any node are kept in balance, with a maximum height difference of one. Whenever this balance is disrupted, a process called 'rebalancing' is triggered to restore it.
+
+This unique property ensures that essential operations like searching, insertion, deletion, joining, and splitting of elements within the tree operate efficiently, with a time complexity of O(log n) in both average and worst-case scenarios.
+
+In this implementation, we've introduced the concept of 'imaginary nodes.' For every actual node in the tree, two virtual nodes are associated, which assist in maintaining the tree's balanced structure.  
 
 ## Usage
 In order to use the AVLTree and AVLNode instances you should download the files from the *AVL folder*, place them in the correct directory 
