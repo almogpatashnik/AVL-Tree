@@ -10,7 +10,7 @@ For more information about AVL trees and their rebalancing methods can be found 
 and many Data Structures and Algorithms books.
 
 ## Usage
-In order to use the AVLTree and AVLNode instances you should download the files, place them in the correct directory 
+In order to use the AVLTree and AVLNode instances you should download the files from the *AVL folder*, place them in the correct directory 
 and import as follow:
 ```python
 from AVLList import AVLTreeList
